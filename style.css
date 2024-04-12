@@ -1,0 +1,329 @@
+
+
+.carousel  {
+    background-image: url("Images/Backimage.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Adjust the height as needed */
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+.modal-content {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.navbar {
+    background-color: #333; /* Change this to your desired background color */
+    position: fixed; /* Set position to fixed */
+    top: 0; /* Set top position to 0 */
+    width: 100%; /* Make it take the full width of the viewport */
+  }
+  
+  /* Style for the links inside the navigation bar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  /* Change the color of the links on hover */
+  .navbar a:hover {
+    color: rgb(55, 143, 231);
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+
+    h1 {
+        font-size: 55px;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+}
+
+.container {
+    max-width: 960px;
+}
+
+.featurette {
+    text-align: center;
+}
+
+.featurette-heading {
+    margin-top: 0; /* Set margin-top to 0 to remove empty space */
+}
+
+.featurette-container {
+    background-image: url("Images/page1back.jpg"); /* Set your desired background color */
+    padding: 20px; /* Add padding to create space around the content */
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+}
+
+ p {
+    font-size: 20px auto;
+}
+
+h2 {
+    font-family: Arial, sans-serif; /* Specify font family */
+    font-size: 55px; /* Specify font size */
+    color: #333; /* Specify font color */
+    text-align: center; /* Specify text alignment */
+    margin-bottom: 15px; /* Add bottom margin for spacing */
+    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.5); /* Add shadow */
+  }
+
+h3 {
+    font-size: 40px;
+}
+
+.image-container {
+    border-radius: 10% ;
+    overflow: hidden;
+
+}
+
+.featurette-container2 {
+    background-image: url("Images/Page2background.jpg");
+    padding: 20px auto; /* Add padding to create space around the content */
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 252, 252);
+    font-size: 18px;
+}
+
+.featurette-container3 {
+    background-image: url("Images/Page3back.jpg");
+    padding: 20px auto; /* Add padding to create space around the content */
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 18px;
+}
+
+.featurette-container4 {
+    background-image: url("Images/Page4back.jpg");
+    padding: 20px auto; /* Add padding to create space around the content */
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+
+}
+
+.wrapper {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+/*
+* Custom translucent site header
+*/
+
+.site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.site-header a {
+    color: #727272;
+    transition: color .15s ease-in-out;
+}
+
+.site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    transform: rotate(30deg);
+}
+
+.product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+}
+
+.product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+}
+
+
+/*
+* Extra utilities
+*/
+
+.flex-equal>* {
+    flex: 1;
+}
+
+@media (min-width: 768px) {
+    .flex-md-equal>* {
+        flex: 1;
+    }
+}
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+.social-links img {
+    width: 40px; /* Adjust the width of the image as needed */
+    height: 40px; /* Adjust the height of the image as needed */
+    border-radius: 50%; /* Make the image appear in a circle */
+  }
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}

@@ -1,0 +1,44 @@
+body {
+  background-image: url("Images/backimage.jpg");
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Set the background color of the outside page */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Make the body take the full height of the viewport */
+}
+
+.container {
+  background-color: #a59c9c; /* Set the background color of the container */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .privacy-content {
+    line-height: 1.6;
+  }
+  
+  .privacy-content p {
+    margin-bottom: 20px;
+  }
+
+  .button {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .button .btn {
+    font-size: 18px; /* Adjust the font size as needed */
+    padding: 12px 24px; /* Adjust the padding as needed */
+    border-radius: 25px;
+  }
+  
